@@ -2,31 +2,42 @@
   background: linear-gradient(to right,
   #B32222 0%, 
   #FF3131 12%,
-  #CC2727 73%,
+  #a81f1f 73%,
   #991D1D 100%);
   border: 3 solid lightgray;
   border-bottom: 3 solid lightgray;
-  padding: 5px;
+  padding: 10px 20px;
+  height: 115px;
 }
 
 .custom-title {
   font-family: 'Rubik Broken Fax';
   color: #110127;
-  font-size: 60px;
-  margin-left: 150px;
-  margin-top: -10px;
+  font-size: 90px;
+  font-style: italic;
+  width: 635px;
+  height: 61px;
+  
 }
 
-.icon-site {
-  font-size: 1.5rem;
-  cursor: pointer;
-}
 
 .search-navbar {
   font-family: 'Orbitron';
   background-color: #463D3D;
   color: rgb(0, 0, 0);
   padding: 10px 20px;
+  border: 3px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: -10px;
+  position: relative;
+}
+
+.search-depar-text {
+  font-family: 'Orbitron';
+  color: #0E001F;
+  font-size: 28px;
+  margin-left: 15px;
 }
 
 .menu-icon {
@@ -35,7 +46,9 @@
 }
 .search-bar
 {
-  width: 1500px; /* Make the input take the full width of the search bar container */
+  width: 2100px; /* Make the input take the full width of the search bar container */
+  margin-left: -5%;
+  margin-right: 2%;
 }
 
 .search-bar input {
@@ -50,13 +63,75 @@
   color: #ccc;
 }
 
-.icon-heart, .icon-cart {
+.icons-navbar {
+  width: 155px;
   height: 45px;
   cursor: pointer;
-  font-size: 1.1rem;
+  margin-left: -5%;
+  margin-right: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3;
+}
+
+.icon-heart {
+  margin-left: -16%;
+  margin-top: 1px;
+}
+
+.icon-support {
+  margin-left: 15%;
+  margin-top: 1px;
 }
 
 .icon-cart {
-  margin-right: 10px;
+  margin-left: 15%;
   margin-top: 1px;
+}
+
+.custom-logo {
+  width: 170px;
+  height: 120px;
+  margin-left: 5px;
+  margin-top: -10px;
+  margin-right: 50px;
+}
+
+
+.container-fluid {
+  flex-direction: row;
+  align-items: first baseline;
+  justify-content: flex-start;
+  padding: 3;
+}
+
+.techforge-ad {
+  position: fixed;
+  margin-top: 40px;
+  margin-left: 44%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.techforge-text {
+  width: 433px;
+  height: 73px;
+  font-family: 'Orbitron';
+  font-size: 25px;
+  color: #0E001F;
+  line-height: 1.2;
+}
+
+
+.techforge-icon {
+  width: 190px;
+  height: 128px;
+  margin-top: -9px;
+
+}
+
+.logo-pc {
+  margin-top: -10px;
+  margin-left: 13px;
 }
